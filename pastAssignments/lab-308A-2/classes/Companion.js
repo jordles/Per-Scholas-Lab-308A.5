@@ -1,6 +1,6 @@
-import Character from "./Character.js"
+import Character from "./Character.js" //we import the Character class, so our companion can extend it
 
-export default class Companion extends Character {
+export default class Companion extends Character { //we must export the Companion class so that it can be used in script.js
   constructor(name, type) {
     super(name)
     this.type = type

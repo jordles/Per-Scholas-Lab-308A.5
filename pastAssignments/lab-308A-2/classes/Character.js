@@ -1,4 +1,4 @@
-export default class Character {
+export default class Character { //we must export Character for our adventurer to extend it
   static MAX_HEALTH = 100;
 
   constructor(name) {

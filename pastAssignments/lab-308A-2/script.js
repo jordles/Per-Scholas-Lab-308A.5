@@ -37,4 +37,4 @@ const gandalf = healerFactory.generate('Gandalf') //we use the generate method f
 const radagastTheBrown = healerFactory.generate('Radagast')
 
 
-gandalf.duel(radagastTheBrown) //we use the duel method so two adventurers can duel; since these characters are created from the same class, they both have access to duel
+gandalf.duel(radagastTheBrown) //we use the duel method so two adventurers can duel; since these characters are created from the same class, they both have access to duel method

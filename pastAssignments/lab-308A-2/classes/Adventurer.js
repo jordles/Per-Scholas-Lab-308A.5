@@ -1,6 +1,6 @@
 import Character from "./Character.js"; //we import the Character class, so our adventurer can extend it
 
-export default class Adventurer extends Character {
+export default class Adventurer extends Character { //we must export the class so that it can be used in script.js
   static ROLES = ['Fighter', 'Healer', 'Wizard']
 
   constructor(name, role) {
