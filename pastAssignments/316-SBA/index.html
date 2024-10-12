@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Log</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script type="module" src="main.js" defer></script>
+</head>
+<body>
+  <h2 id="title">General</h2>
+  <div id="lobby">
+    <form id="sign-in">
+      <h3>Lobby Sign In</h3>
+      <input type="text" id="name" placeholder = "name" minlength="4">
+      <input type="password" id="password" placeholder="Secret Password (corn304)">
+      <button type="submit">Sign In</button>
+      <div id="error-display" style="display:none"></div>
+    </form>
+    <div id="chat">
+      
+      <div id="chat-log">
+
+      </div>
+      <form id="chat-input">
+        <div></div>
+        <span class="material-symbols-rounded add">add</span>
+        <textarea name="chat-input" id="chat-text-area" placeholder="type here..." rows="1"></textarea>
+        <button type="submit" id="send"><span class="material-symbols-rounded">eco</span></button>
+      </form>
+    </div>
+    <div id="users"></div>
+  </div>
+</body>
+</html>
